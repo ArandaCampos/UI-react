@@ -8,7 +8,7 @@ const turnOn = keyframes`
         border-radius: 0%;
         width: calc(${height} / 2);
         transform: rotate(45deg);
-        margin-left: calc(${height} * 0.45);
+        margin-left: calc(${height} * 0.52);
         border-color: transparent green green transparent;
     }
 `;
