@@ -62,7 +62,7 @@ const SearchDiv = styled.div`
     & > a > img{
         position: absolute;
         left: 20%;
-        top: 15%;
+        top: 20%;
         height: 24px;
     }
 
