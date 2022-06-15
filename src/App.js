@@ -1,4 +1,4 @@
-import './App.css';
+import './App.css'
 import SlideButton from './components/buttons/check/slide-button/SlideButton';
 import TickButton from './components/buttons/check/tick-button/TickButton';
 
