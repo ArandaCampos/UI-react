@@ -48,7 +48,7 @@ function Typing({text}){
                 setTyping(text.slice(0, i));
                 setI((i) => i + 1)
             }
-        }, 180);
+        }, 100);
     }); 
 
     return (
