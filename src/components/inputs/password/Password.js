@@ -12,7 +12,7 @@ const Input = styled.input`
     height: 25px;
     width: ${width};
     border-radius: 6px;
-    border: 2px solid gray;
+    border: #c2c9c5 solid 2px;
     padding: 10px;
     padding-left: 15px;
 
@@ -22,7 +22,7 @@ const Input = styled.input`
     color: black;
     
     &:focus, select:focus {
-        box-shadow: 0 0 0 0;
+        border-color: black;
         outline: 0;
     }
 `;
