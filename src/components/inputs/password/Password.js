@@ -11,19 +11,25 @@ const Div = styled.div`
 const Input = styled.input`
     height: 25px;
     width: ${width};
-    border-radius: 40px;
-    border: 2px solid black;
+    border-radius: 6px;
+    border: 2px solid gray;
     padding: 10px;
-    padding-left: 20px;
+    padding-left: 15px;
 
     font-family: Ubuntu;
-    font-size: 14px;
+    font-size: 12px;
     letter-spacing: 0.4px;
+    color: black;
+    
+    &:focus, select:focus {
+        box-shadow: 0 0 0 0;
+        outline: 0;
+    }
 `;
 
 const ImgButton = styled.div`
     position: absolute;
-    right: 20px;
+    right: 15px;
     top: 25%;
     height: 25px;
 
@@ -62,7 +68,7 @@ function Password(){
 
     return (
         <Div>
-            <Input placeholder="password" type={type} />
+            <Input placeholder="Password" type={type} />
             <ImgButton onClick={() => handle()}>
                 <Img src={open} />
                 <Block className={state}/>
