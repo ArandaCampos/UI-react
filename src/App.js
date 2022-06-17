@@ -4,7 +4,8 @@ import TickButton from './components/buttons/check/tick-button/TickButton';
 import Search from './components/inputs/text/search/Search';
 import Password from './components/inputs/password/Password';
 import Typing from './components/texts/typing/Typing';
-
+import DarkCard from './components/cards/dark/DarkCard';
+import InputLabel from './components/inputs/text/labelAnimation/InputLabel';
 
 function App() {
 
@@ -15,6 +16,8 @@ function App() {
       <Search /> 
       <Password />
       <Typing text="Bem-vindo(a) ao site!" /> 
+      <DarkCard title="Título 1" description="Características *** "/>
+      <InputLabel label="Username"/>
     </div>  
   );
 }
